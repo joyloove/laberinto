@@ -274,7 +274,7 @@ function win() { //función ganaste//
     mazec.font = "50px Arial";
     mazec.textAlign = "center";
     mazec.fillStyle = '#8cffd4'; //mint//
-    mazec.fillText("You Win!", maze.width / 2, maze.height / 2);
+    mazec.fillText("You Won!", maze.width / 2, maze.height / 2);
     mazec.font = "20px Arial";
     mazec.fillText("Press Space to play again", maze.width / 2, maze.height / 2 + 50);
 }
